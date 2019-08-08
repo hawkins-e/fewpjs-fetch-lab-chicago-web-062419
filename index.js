@@ -13,18 +13,6 @@ function renderBooks(json) {
   })
 }
 
-// function find_5th_Book(, {
-//   method: "POST",
-//   headers: {
-//     "Content-Type": "application/json",
-//   },
-//   body: JSON.stringify({
-//     title: 'The Fifth Season',
-//     author: 'N.K. Jemisin',
-//     img: 'https://images-na.ssl-images-amazon.com/images/I/61XfS2XCw3L._SL160_SX135_.jpg'
-//   })
-// });
-
 document.addEventListener('DOMContentLoaded', function() {
   fetchBooks()
 })
